@@ -8,7 +8,7 @@
 		<!-- Sidebar user panel (optional) -->
 		<div class="user-panel">
 			<div class="pull-left image">
-				<img src="dist/img/user2-160x160.jpg" class="img-circle"
+				<img src="/dist/img/user2-160x160.jpg" class="img-circle"
 					alt="User Image">
 			</div>
 			<div class="pull-left info">
@@ -34,11 +34,12 @@
 
 		<!-- Sidebar Menu -->
 		<ul class="sidebar-menu" data-widget="tree">
-			<li class="header">HEADER</li>
+			<li class="header">메뉴</li>
 			<!-- Optionally, you can add icons to the links -->
-			<li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
-			<li><a href="#"><i class="fa fa-link"></i> <span>Another
-						Link</span></a></li>
+			<li class="active"><a href="${path }/article/write"><i class="fa fa-link"></i> <span>게시글 작성</span></a></li>
+			<li><a href="${path }/article/list"><i class="fa fa-link"></i> <span>게시글 목록</span></a></li>
+			
+			
 			<li class="treeview"><a href="#"><i class="fa fa-link"></i>
 					<span>Multilevel</span> <span class="pull-right-container">
 						<i class="fa fa-angle-left pull-right"></i>
@@ -46,7 +47,8 @@
 				<ul class="treeview-menu">
 					<li><a href="#">Link in level 2</a></li>
 					<li><a href="#">Link in level 2</a></li>
-				</ul></li>
+				</ul>
+			</li>
 		</ul>
 		<!-- /.sidebar-menu -->
 	</section>
